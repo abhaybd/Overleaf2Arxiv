@@ -14,7 +14,7 @@ Given the Overleaf project ID, it will automatically package it for upload to ar
 To install, run
 
 ```bash
-pip install git+https://github.com/abhaybd/Overleaf2Arxiv
+pip install overleaf2arxiv
 ```
 
 Additionally, ensure that you are logged into [Overleaf](https://www.overleaf.com) on your default browser.
