@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="overleaf2arxiv",
-    version="0.2.0",
+    version="0.2.1",
     packages=["overleaf2arxiv"],
     install_requires=[
         "pyoverleaf",
