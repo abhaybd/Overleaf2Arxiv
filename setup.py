@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="overleaf2arxiv",
-    version="0.1.2",
+    version="0.2.0",
     packages=["overleaf2arxiv"],
     install_requires=[
-        "pyoverleaf[cli]",
+        "pyoverleaf",
     ],
     entry_points={
         "console_scripts": [

@@ -28,10 +28,20 @@ Finally, install `pdflatex` on your machine and ensure it's available on the sys
 
 ## Usage
 
-Using this script is easy, simply run
+Using this script is easy!
+
+To automatically download the project from Overleaf and package it, simply run
 
 ```bash
-overleaf2arxiv <project_id> project.zip
+overleaf2arxiv -p <project_id> project.zip
 ```
 
-where `<project_id>` is the Overleaf project ID (visible in the URL), and then just upload `project.zip` to arXiv!
+where `<project_id>` is the Overleaf project ID (visible in the URL). This may ask for a password while authenticating with Overleaf to download your project.
+
+You can avoid authenticating with Overleaf by downloading the project zip manually, and then running:
+
+```bash
+overleaf2arxiv -f <path_to_downloaded_project.zip> project.zip
+```
+
+Finally, just upload `project.zip` to arXiv!
